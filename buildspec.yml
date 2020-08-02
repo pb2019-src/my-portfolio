@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      -echo nothing to do yet
+artifcats:
+  files:
+    -index.html
+    -favicon.ico
+    -Ahmad_Almanassra_Resume.pdf
+    -styles/main.css
+    -images/*
