@@ -1,9 +1,14 @@
-version: 0.2
+version: 0.1
 
 phases:
+  pre_build:
+    commands:
+      - npm install
+      - npm test
   build:
     commands:
-      - echo nothing to do yet
+      -npm run webpack
+
 artifcats:
   files:
     - index.html
