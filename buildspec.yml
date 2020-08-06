@@ -1,9 +1,9 @@
-version: 0.2
+version: 0.1
 
 phases:
 install:
     runtime-versions:
-      nodejs: 10
+      nodejs: 12
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
