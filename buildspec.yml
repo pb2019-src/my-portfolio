@@ -1,14 +1,21 @@
 version: 0.2
 
 phases:
-  install:
+install:
     runtime-versions:
       nodejs: 10
-
-   build:
-      commands:
-        - npm install
-        - npm run webpack
+    commands:
+      - echo Installing Mocha...
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+      - npm run webpack
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm run test
 artifacts:
   files:
     - index.html
