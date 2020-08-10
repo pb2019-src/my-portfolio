@@ -3,14 +3,12 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
       - npm install
       - npm test
 
   build:
     commands:
-      - echo Build started on `date`
-      - echo Compiling the Node.js code
+
       - npm run webpack
   post_build:
     commands:
