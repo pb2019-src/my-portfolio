@@ -43,4 +43,4 @@ describe("ExampleWorkModal Component", () =>{
     expect(openComponent.find(".background--skyBlue").hasClass("modal--open")).toBe(true);
   })
 
-})
+});
