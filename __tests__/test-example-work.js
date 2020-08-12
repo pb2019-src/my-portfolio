@@ -14,7 +14,7 @@ const myWork = [
     'title': `Software Development
     /Cloud`,
     'image': {
-      'desc': "screenshot of aws",
+      'desc': "screenshot of AWS",
       'src': "images/example1.png",
       'comment': ""
     }
