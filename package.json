@@ -4,6 +4,7 @@
   "description": "My Personal Portfolio",
   "main": "index.js",
   "dependencies": {
+    "@babel/preset-react": "^7.10.4",
     "react": "16.2.0",
     "react-dom": "^16.13.1"
   },
