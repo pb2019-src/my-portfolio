@@ -15,7 +15,7 @@ phases:
 artifacts:
   files:
     - index.html
-    - favicon.ico
+    - favicon.png
     - Ahmad_Almanassra_Resume.pdf
     - styles/main.css
     - images/*
