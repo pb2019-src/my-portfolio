@@ -17,8 +17,8 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^22.4.3",
     "react-test-renderer": "^16.2.0",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   },
   "scripts": {
     "test": "jest",
