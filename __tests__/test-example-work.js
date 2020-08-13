@@ -50,6 +50,7 @@ describe("ExampleWork component", () => {
 
 describe("ExampleWorkBubble component", () =>{
   let mockOpenModalfn=jest.fn();
+  
   let component = shallow(<ExampleWorkBubble example={myWork[1]}
     openModal={mockOpenModalfn}/>);
 
